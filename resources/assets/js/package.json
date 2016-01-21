@@ -1,0 +1,26 @@
+{
+  "name": "kolimpri-auth",
+  "version": "4.0.0",
+  "description": "Kolimpri Auth",
+  "main": "auth.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolimpri/auth"
+  },
+  "keywords": [
+    "laravel",
+    "auth"
+  ],
+  "author": {
+    "name": "Luis Valdivia"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/kolimpri/auth",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "moment": "^2.10.6",
+    "underscore": "^1.8.3",
+    "vue": "^0.12.9",
+    "vue-resource": "^0.1.11"
+  }
+}

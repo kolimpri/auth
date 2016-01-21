@@ -1,0 +1,28 @@
+{
+    "name": "kolimpri/auth",
+    "description": "Kolimpri Auth provides a starter scaffolding for Laravel SaaS applications.",
+    "keywords": ["laravel", "auth", "scaffolding"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Valdivia",
+            "email": "svaldi.lsvl@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "erusev/parsedown": "~1.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kolimpri\\Auth\\": "app/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
